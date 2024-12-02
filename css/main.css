@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #162542;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .cta {
+    background-color: #E8EFF2;
+}
+
+header .cta:hover {
+    background-color: #F16718;
+}
+
+.cta {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #162542;
+    width: 150px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+.contents-presentation {
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+}
+
+.contents-presentation p {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 16px;
+    color: #7B8BAD;
+}
+
+.content-buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-buy a {
+    color: #FFFFFF;
+    background-color: #F16718 ;
+}
+
+.content-buy p {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #7B8BAD;
+    padding-right: 18px;
+}
+
+.img-keyboard {
+    width: 350px;
+    border-radius: 16px;
+    margin-top: 64px;
+}
+
+
